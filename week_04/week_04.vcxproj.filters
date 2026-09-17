@@ -30,6 +30,15 @@
     <ClCompile Include="05_queue.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="06_circular_queue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CirQ_linked.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="virus.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="02_SLL.h">
@@ -48,6 +57,7 @@
   <ItemGroup>
     <Text Include="data.txt" />
     <Text Include="editor.txt" />
-    <Text Include="queueadata.txt" />
+    <Text Include="qdata.txt" />
+    <Text Include="virus.txt" />
   </ItemGroup>
 </Project>

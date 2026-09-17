@@ -126,8 +126,11 @@
     <ClCompile Include="04_CLL.c" />
     <ClCompile Include="02_SLL.c" />
     <ClCompile Include="03_DLL.c" />
+    <ClCompile Include="06_circular_queue.c" />
+    <ClCompile Include="CirQ_linked.c" />
     <ClCompile Include="Editor.c" />
     <ClCompile Include="05_queue.c" />
+    <ClCompile Include="virus.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="04_CLL.h" />
@@ -138,7 +141,8 @@
   <ItemGroup>
     <Text Include="data.txt" />
     <Text Include="editor.txt" />
-    <Text Include="queueadata.txt" />
+    <Text Include="qdata.txt" />
+    <Text Include="virus.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
