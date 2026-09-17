@@ -39,6 +39,9 @@
     <ClCompile Include="virus.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="House_number.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="02_SLL.h">
@@ -59,5 +62,8 @@
     <Text Include="editor.txt" />
     <Text Include="qdata.txt" />
     <Text Include="virus.txt" />
+    <Text Include="House_number.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>

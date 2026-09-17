@@ -5,7 +5,7 @@
 #define SIZE(a) (sizeof(a)/sizeof((a)[0]))
 
 //인접리스트
-#if 1
+#if 0
 #define MAX (101)
 int queue[MAX];
 int front, rear;

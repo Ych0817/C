@@ -130,6 +130,7 @@
     <ClCompile Include="CirQ_linked.c" />
     <ClCompile Include="Editor.c" />
     <ClCompile Include="05_queue.c" />
+    <ClCompile Include="House_number.c" />
     <ClCompile Include="virus.c" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +142,7 @@
   <ItemGroup>
     <Text Include="data.txt" />
     <Text Include="editor.txt" />
+    <Text Include="House_number.txt" />
     <Text Include="qdata.txt" />
     <Text Include="virus.txt" />
   </ItemGroup>
