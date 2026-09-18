@@ -42,6 +42,12 @@
     <ClCompile Include="House_number.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="07_HouseNumber_Inclass.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Janggi.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="02_SLL.h">
@@ -62,8 +68,7 @@
     <Text Include="editor.txt" />
     <Text Include="qdata.txt" />
     <Text Include="virus.txt" />
-    <Text Include="House_number.txt">
-      <Filter>소스 파일</Filter>
-    </Text>
+    <Text Include="House_number.txt" />
+    <Text Include="Janggi.txt" />
   </ItemGroup>
 </Project>

@@ -127,10 +127,12 @@
     <ClCompile Include="02_SLL.c" />
     <ClCompile Include="03_DLL.c" />
     <ClCompile Include="06_circular_queue.c" />
+    <ClCompile Include="07_HouseNumber_Inclass.c" />
     <ClCompile Include="CirQ_linked.c" />
     <ClCompile Include="Editor.c" />
     <ClCompile Include="05_queue.c" />
     <ClCompile Include="House_number.c" />
+    <ClCompile Include="Janggi.c" />
     <ClCompile Include="virus.c" />
   </ItemGroup>
   <ItemGroup>
@@ -143,6 +145,7 @@
     <Text Include="data.txt" />
     <Text Include="editor.txt" />
     <Text Include="House_number.txt" />
+    <Text Include="Janggi.txt" />
     <Text Include="qdata.txt" />
     <Text Include="virus.txt" />
   </ItemGroup>

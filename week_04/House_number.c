@@ -5,6 +5,7 @@
 #define SIZE(a) (sizeof(a)/sizeof((a)[0]))
 #define MAXN 25
 
+#if 0
 int n;
 char g[MAXN][MAXN + 2];       /* 문자열 + '\0' 여유 */
 int qy[MAXN * MAXN], qx[MAXN * MAXN];
@@ -66,3 +67,4 @@ int main(void)
 
     return 0;
 }
+#endif
