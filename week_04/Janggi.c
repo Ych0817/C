@@ -11,25 +11,13 @@ typedef struct _node_Janggi {
 	int c;
 }node_Janggi;
 
-int R, C, K, S, N, M;
 node_Janggi Queue[MAX * MAX] = { 0 };
+int R, C, K, S, N, M;
 int dist[MAX][MAX] = { 0 };
-
 int dR[] = { 2, 2,-2,-2,1,1,-1,-1};
 int dC[] = { 1,-1,-1,1,2,-2,2,-2};
 
-int printData(int (*arr)[MAX], int v) {
-	for (int i = 1; i <= v; i++) {
-		for (int j = 1; j <= v; j++) {
-			printf("%d ", arr[i][j]);
-		}
-		printf("\n");
-	}
-	printf("\n");
-}
-
 int Jangji_BFS(int sR, int sC, int s, int k) {
-	
 	int front = 0, rear = 0;
 	Queue[rear++] = (node_Janggi){ sR, sC };   
 	dist[sR][sC] = 0;
@@ -41,20 +29,16 @@ int Jangji_BFS(int sR, int sC, int s, int k) {
 		for (int i = 0; i < 8; i++) {
 			int nR = curr.r + dR[i];
 			int nC = curr.c + dC[i];
-			
+
 			if (nR < 1 || nR > N || nC < 1 || nC > M) continue;
-			if (dist[nR][nC] == 0) {                   //방문하지 않은 집
+
+			if (dist[nR][nC] == 0) {  //방문하지 않은 곳
 				Queue[rear++] = (node_Janggi){ nR,nC };
 				dist[nR][nC] = dist[curr.r][curr.c] + 1;
 			}
 		}
 	}
 	return dist[s][k];
-}
-
-void printCnt(int* arr, int n) {
-	for (int i = 0; i < n; i++)
-		printf("%d\n", arr[i]);
 }
 
 int main(void) {
