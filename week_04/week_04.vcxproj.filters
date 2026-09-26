@@ -48,6 +48,27 @@
     <ClCompile Include="Janggi.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="tomato.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="zergling.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09_stack.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NQueen.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10_Tree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cow_baseball.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="chobab.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="02_SLL.h">
@@ -70,5 +91,10 @@
     <Text Include="virus.txt" />
     <Text Include="House_number.txt" />
     <Text Include="Janggi.txt" />
+    <Text Include="tomato.txt" />
+    <Text Include="zergling.txt" />
+    <Text Include="09_stack.txt" />
+    <Text Include="cow_baseball.txt" />
+    <Text Include="chobab.txt" />
   </ItemGroup>
 </Project>

@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #define SIZE(a) (sizeof(a)/sizeof((a)[0]))
 
-//인접리스트
+//인접리스트 
 #if 0
 #define MAX (101)
 int queue[MAX];
@@ -19,7 +19,6 @@ int print_arr(int (*arr)[MAX], int v) {
 		}
 		printf("\n");
 	}
-	
 }
 
 // BFS(Breadth-First Search, 너비 우선 탐색)
@@ -38,7 +37,7 @@ int virus_bfs(int start) {
 	while (front != rear) {
 		int curr = queue[front++];
 		for (int i = 1; i <= arr[curr][0]; i++) {
-			int n = arr[curr][i];      
+			int n = arr[curr][i];
 			if (used[n] == 0) {
 				++cnt;
 				queue[rear++] = n;

@@ -128,12 +128,19 @@
     <ClCompile Include="03_DLL.c" />
     <ClCompile Include="06_circular_queue.c" />
     <ClCompile Include="07_HouseNumber_Inclass.c" />
+    <ClCompile Include="09_stack.c" />
+    <ClCompile Include="10_Tree.c" />
+    <ClCompile Include="chobab.c" />
     <ClCompile Include="CirQ_linked.c" />
+    <ClCompile Include="cow_baseball.c" />
     <ClCompile Include="Editor.c" />
     <ClCompile Include="05_queue.c" />
     <ClCompile Include="House_number.c" />
     <ClCompile Include="Janggi.c" />
+    <ClCompile Include="NQueen.c" />
+    <ClCompile Include="tomato.c" />
     <ClCompile Include="virus.c" />
+    <ClCompile Include="zergling.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="04_CLL.h" />
@@ -142,12 +149,17 @@
     <ClInclude Include="05_queue.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="09_stack.txt" />
+    <Text Include="chobab.txt" />
+    <Text Include="cow_baseball.txt" />
     <Text Include="data.txt" />
     <Text Include="editor.txt" />
     <Text Include="House_number.txt" />
     <Text Include="Janggi.txt" />
     <Text Include="qdata.txt" />
+    <Text Include="tomato.txt" />
     <Text Include="virus.txt" />
+    <Text Include="zergling.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

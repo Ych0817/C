@@ -5,7 +5,7 @@
 #define SIZE(a) (sizeof(a)/sizeof((a)[0]))
 #define MAX (104)
 
-#if 1
+#if 0
 typedef struct _node_Janggi {
 	int r;
 	int c;
@@ -41,7 +41,7 @@ int Jangji_BFS(int sR, int sC, int s, int k) {
 			int nC = curr.c + dC[i];
 
 			if (nR < 1 || nR > N || nC < 1 || nC > M) continue;
-			if (curr.r == s && curr.c == k) return dist[nR][nC];
+			if (curr.r == s && curr.c == k) return dist[nR][nC] -1;
 			if (dist[nR][nC] == 0) {  //방문하지 않은 곳
 				Queue[rear++] = (node_Janggi){ nR,nC };
 				dist[nR][nC] = dist[curr.r][curr.c] + 1;
