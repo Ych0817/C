@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #define SIZE(a) (sizeof(a)/sizeof((a)[0]))
 
-#if 1
+#if 0
 #define MAX_N (3000000 + 3000 + 2)   // 뒤에 k-1개를 더 복사하니까 k만큼 여유
 #define MAX_D (3000 + 2)
 

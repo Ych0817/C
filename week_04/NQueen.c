@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #define SIZE(a) (sizeof(a)/sizeof((a)[0]))
 
-#if 0
+#if 1
 #define MAX (12)
 int cols[MAX];
 int main_d[MAX*2];
@@ -21,11 +21,11 @@ void nqueen_DFS(int r) {
 	for (int c = 0; c < N; ++c) {
 		int md = (r - c) + N;
 		int ad = r + c;
-		if (cols[c] || main_d[md] || anti_d[ad]) continue; //방문표시
-		cols[c] = 1; main_d[md] = 1; anti_d[ad] = 1;
+		if (cols[c] || main_d[md] || anti_d[ad]) continue; 
+		cols[c] = 1; main_d[md] = 1; anti_d[ad] = 1;   //방문표시
 
-		nqueen_DFS(r + 1); //방문해제
-		cols[c] = 0; main_d[md] = 0; anti_d[ad] = 0;
+		nqueen_DFS(r + 1); 
+		cols[c] = 0; main_d[md] = 0; anti_d[ad] = 0;  //방문해제
 	}
 }
 

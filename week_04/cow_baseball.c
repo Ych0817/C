@@ -5,7 +5,7 @@
 #define SIZE(a) (sizeof(a)/sizeof((a)[0]))
 
 // 소들의 야구 (BinarySearch 사용) 강사님 코드
-#if 0
+#if 1
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
